@@ -3,16 +3,28 @@ body{
   font-size:110%;
   background-color: #FCF7F8;
 }
+#headshot {
+  width: 20%;
+  height: 20%;
+  border-radius: 45%;
+  border: 3px solid orange;
+
+
+}
+
+
 h1,h3,p1{
 color: #FCF7F8;
-
 }
 
 header {
   text-align: center;
   font-family: sans-serif;
   font-size: 110%;
-  
+}
+#heading{
+  font-family: sans-serif;
+
 }
 
 
@@ -21,10 +33,21 @@ footer {
   text-align: center;
 }
 #sidebar{
-  width: 20%;
-  background-color: gray
+  width: 15%;
+  background-color: gray;
+  padding: 1 rem;
+  color: black;
+  
+  
+
 }
 .nav-menu{
   list-style-type: none;
+  padding: 5%;
+}
 
+.Icons{
+  width: 5 rem;
+  margin: 3 rem;
+  height: auto;
 }
