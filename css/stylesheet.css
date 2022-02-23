@@ -7,22 +7,16 @@ body{
 }
 .main{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   overflow: unset;
-
-
-
-
-
-
 }
 
 
 #headshot {
-  width: 20%;
-  height: 20%;
-  border-radius: 45%;
-  border: 3px solid orange;
+  width: 10%;
+  height: 10%;
+  border-radius: 65%;
+  border: 2px solid orange;
 
 
 }
@@ -64,7 +58,7 @@ footer {
 }
 
 .Icons{
-  width: 5 rem;
-  margin: 3 rem;
+  width: 3 rem;
+  margin: 6 rem;
   height: auto;
 }
