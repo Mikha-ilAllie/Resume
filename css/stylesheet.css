@@ -16,7 +16,7 @@ body{
   width: 10%;
   height: 10%;
   border-radius: 65%;
-  border: 2px solid orange;
+  border: 2px solid greenyellow;
 
 
 }
@@ -44,9 +44,9 @@ footer {
   text-align: center;
 }
 #sidebar{
-  width: 15%;
+  width: 23%;
   background-color: gray;
-  padding: 1 rem;
+  padding: 0.5 rem;
   color: black;
   
   
@@ -58,7 +58,9 @@ footer {
 }
 
 .Icons{
-  width: 3 rem;
-  margin: 6 rem;
+  width: 5 rem;
+  margin: 3 rem;
   height: auto;
 }
+
+
