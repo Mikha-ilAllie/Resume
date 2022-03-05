@@ -6,6 +6,7 @@ body{
   flex-direction: column;
 }
 .main{
+ margin: 5px,5px,5px,5px;
   display: flex;
   flex-direction: row;
   overflow: unset;
@@ -13,28 +14,46 @@ body{
 
 
 #headshot {
-  width: 10%;
-  height: 10%;
-  border-radius: 65%;
-  border: 2px solid greenyellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 5px solid #FCF7F8
 
 
 }
 
+/* img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+} */
+.content{
+  margin-top: 25px;
+}
 
-h1,h3,p1{
+
+h1,h3{
 color: #FCF7F8;
+}
+
+p1{
+  color: #FCF7F8;
+  font-size: 100%;
+  font-style: oblique;
 }
 
 header {
   text-align: center;
   justify-content: center;
+  background-color: #343330;
 }
 #heading{
   font-family: sans-serif;
   font-size: 110%;
   background-color: #343330;
   color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
 }
 
@@ -45,6 +64,9 @@ footer {
 }
 #sidebar{
   width: 23%;
+  padding-top: 25px;
+  padding-left: 3%;
+  margin-right: 25px;
   background-color: gray;
   padding: 0.5 rem;
   color: black;
@@ -61,6 +83,7 @@ footer {
   width: 5 rem;
   margin: 3 rem;
   height: auto;
+  border-radius: 55%;
 }
 
 
